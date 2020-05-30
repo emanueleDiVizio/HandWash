@@ -1,0 +1,233 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HandWashComponent dispatches \`endShift\` action when user presses button and is on shift 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <TouchableOpacity
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#00A1D2",
+          },
+          Object {
+            "bottom": 0,
+            "height": 100,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "shadowColor": "black",
+            "shadowOffset": Object {
+              "height": -4,
+            },
+            "shadowOpacity": 0.4,
+            "shadowRadius": 16,
+          },
+        ]
+      }
+      testID="shift-button"
+    >
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "white",
+            "fontSize": 17,
+            "marginTop": 8,
+          }
+        }
+      >
+        End Shift
+      </Text>
+    </TouchableOpacity>
+  </View>
+</View>
+`;
+
+exports[`HandWashComponent dispatches \`startShift\` action when user presses button and user is not on shift 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <TouchableOpacity
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#00A778",
+          },
+          Object {
+            "bottom": 0,
+            "height": 100,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "shadowColor": "black",
+            "shadowOffset": Object {
+              "height": -4,
+            },
+            "shadowOpacity": 0.4,
+            "shadowRadius": 16,
+          },
+        ]
+      }
+      testID="shift-button"
+    >
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "white",
+            "fontSize": 17,
+            "marginTop": 8,
+          }
+        }
+      >
+        Start shift
+      </Text>
+    </TouchableOpacity>
+  </View>
+</View>
+`;
+
+exports[`HandWashComponent renders correctly when off shift 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <TouchableOpacity
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#00A778",
+          },
+          Object {
+            "bottom": 0,
+            "height": 100,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "shadowColor": "black",
+            "shadowOffset": Object {
+              "height": -4,
+            },
+            "shadowOpacity": 0.4,
+            "shadowRadius": 16,
+          },
+        ]
+      }
+      testID="shift-button"
+    >
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "white",
+            "fontSize": 17,
+            "marginTop": 8,
+          }
+        }
+      >
+        Start shift
+      </Text>
+    </TouchableOpacity>
+  </View>
+</View>
+`;
+
+exports[`HandWashComponent renders correctly when on shift 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <TouchableOpacity
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#00A1D2",
+          },
+          Object {
+            "bottom": 0,
+            "height": 100,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "shadowColor": "black",
+            "shadowOffset": Object {
+              "height": -4,
+            },
+            "shadowOpacity": 0.4,
+            "shadowRadius": 16,
+          },
+        ]
+      }
+      testID="shift-button"
+    >
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "white",
+            "fontSize": 17,
+            "marginTop": 8,
+          }
+        }
+      >
+        End Shift
+      </Text>
+    </TouchableOpacity>
+  </View>
+</View>
+`;

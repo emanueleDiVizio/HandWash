@@ -1,0 +1,252 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HandWash initializes correctly 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <TouchableOpacity
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#00A1D2",
+          "borderRadius": 100,
+          "flexDirection": "column",
+          "height": 200,
+          "justifyContent": "center",
+          "shadowColor": "black",
+          "shadowOffset": Object {
+            "height": -2,
+          },
+          "shadowOpacity": 0.2,
+          "shadowRadius": 16,
+          "width": 200,
+        }
+      }
+      testID="timer-button"
+    >
+      <View
+        style={
+          Object {
+            "bottom": 0,
+            "left": -5,
+            "position": "absolute",
+            "right": 0,
+            "top": -5,
+          }
+        }
+      >
+        <RNSVGSvgView
+          bbHeight={210}
+          bbWidth={210}
+          focusable={false}
+          height={210}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderWidth": 0,
+              },
+              Object {
+                "flex": 0,
+                "height": 210,
+                "width": 210,
+              },
+            ]
+          }
+          width={210}
+        >
+          <RNSVGGroup>
+            <RNSVGGroup
+              matrix={
+                Array [
+                  6.123233995736766e-17,
+                  1,
+                  -1,
+                  6.123233995736766e-17,
+                  210,
+                  0,
+                ]
+              }
+            />
+          </RNSVGGroup>
+        </RNSVGSvgView>
+      </View>
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontSize": 60,
+            },
+            Object {
+              "marginBottom": 24,
+            },
+            Object {
+              "fontFamily": "FontAwesome5Free-Solid",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {
+              "fontWeight": "900",
+            },
+          ]
+        }
+      >
+        
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 21,
+          }
+        }
+      >
+        Wash
+      </Text>
+    </TouchableOpacity>
+  </View>
+</View>
+`;
+
+exports[`HandWash starts the timer when button is pressed and updates with elapsed time 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <TouchableOpacity
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#00A1D2",
+          "borderRadius": 100,
+          "flexDirection": "column",
+          "height": 200,
+          "justifyContent": "center",
+          "shadowColor": "black",
+          "shadowOffset": Object {
+            "height": -2,
+          },
+          "shadowOpacity": 0.2,
+          "shadowRadius": 16,
+          "width": 200,
+        }
+      }
+      testID="timer-button"
+    >
+      <View
+        style={
+          Object {
+            "bottom": 0,
+            "left": -5,
+            "position": "absolute",
+            "right": 0,
+            "top": -5,
+          }
+        }
+      >
+        <RNSVGSvgView
+          bbHeight={210}
+          bbWidth={210}
+          focusable={false}
+          height={210}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderWidth": 0,
+              },
+              Object {
+                "flex": 0,
+                "height": 210,
+                "width": 210,
+              },
+            ]
+          }
+          width={210}
+        >
+          <RNSVGGroup>
+            <RNSVGGroup
+              matrix={
+                Array [
+                  6.123233995736766e-17,
+                  1,
+                  -1,
+                  6.123233995736766e-17,
+                  210,
+                  0,
+                ]
+              }
+            >
+              <RNSVGPath
+                d="M 56.2481872741426 195.16379958687926 A 102.5 102.5 0 1 0 105 2.5"
+                fill={0}
+                propList={
+                  Array [
+                    "fill",
+                    "stroke",
+                    "strokeWidth",
+                    "strokeLinecap",
+                  ]
+                }
+                stroke={4278232952}
+                strokeLinecap={0}
+                strokeWidth={5}
+              />
+            </RNSVGGroup>
+          </RNSVGGroup>
+        </RNSVGSvgView>
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 60,
+            "marginBottom": 24,
+          }
+        }
+      >
+        11
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 21,
+          }
+        }
+      >
+        Seconds
+      </Text>
+    </TouchableOpacity>
+  </View>
+</View>
+`;

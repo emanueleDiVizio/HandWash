@@ -1,0 +1,43 @@
+fastlane_version "2.53.1"
+
+before_all do
+   sh "yarn test"
+end
+
+platform :ios do
+  desc "Fetch certificates and provisioning profiles"
+  private_lane :certificates do
+    match(app_identifier: "com.HandWashTimer", type: "development", readonly: true)
+    match(app_identifier: "com.HandWashTimer", type: "appstore", readonly: true)
+  end
+
+  desc "Build the iOS application."
+  private_lane :build do
+    certificates
+    gym(scheme: "name", project: "./ios/HandWashTimer.xcodeproj")
+  end
+
+  desc "Ship to Testflight."
+  lane :beta do
+    build
+    pilot
+    commit_version_bump(message: "Bump build", xcodeproj: "./ios/HandWashTimer.xcodeproj")
+    push_to_git_remote
+  end
+end
+
+platform :android do
+  desc "Build the Android application."
+  private_lane :build do 
+    gradle(task: "clean", project_dir: "android/")
+    gradle(task: "assemble", build_type: "Release", project_dir: "android/")
+  end
+
+  desc "Submit a new Beta Build to Google Play"
+  lane :beta do
+    # build apk
+    build
+    # Upload to beta
+    supply(track: "beta")
+  end
+end

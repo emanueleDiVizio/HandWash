@@ -1,0 +1,234 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HandWashComponent renders correctly fetching data from store 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#4A4A4A",
+            "marginBottom": 8,
+            "marginLeft": 16,
+          }
+        }
+      >
+        HISTORY
+      </Text>
+      <ScrollView
+        data={
+          Array [
+            Object {
+              "endTime": 1589532333570,
+            },
+            Object {
+              "endTime": 1589532322793,
+            },
+            Object {
+              "endTime": 1589532292430,
+            },
+          ]
+        }
+        disableVirtualization={false}
+        horizontal={false}
+        initialNumToRender={10}
+        maxToRenderPerBatch={10}
+        onEndReachedThreshold={2}
+        removeClippedSubviews={false}
+        scrollEventThrottle={50}
+        stickyHeaderIndices={Array []}
+        updateCellsBatchingPeriod={50}
+        viewabilityConfigCallbackPairs={Array []}
+        windowSize={21}
+      >
+        <View
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "margin": 16,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#00A778",
+                  "justifyContent": "center",
+                  "marginRight": 8,
+                  "width": 70,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "white",
+                    "padding": 8,
+                  }
+                }
+              >
+                08:45
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 17,
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Friday
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#9B9B9B",
+                    "fontSize": 14,
+                  }
+                }
+              >
+                15th May 2020
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "margin": 16,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#00A778",
+                  "justifyContent": "center",
+                  "marginRight": 8,
+                  "width": 70,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "white",
+                    "padding": 8,
+                  }
+                }
+              >
+                08:45
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 17,
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Friday
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#9B9B9B",
+                    "fontSize": 14,
+                  }
+                }
+              >
+                15th May 2020
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "margin": 16,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#00A778",
+                  "justifyContent": "center",
+                  "marginRight": 8,
+                  "width": 70,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "white",
+                    "padding": 8,
+                  }
+                }
+              >
+                08:44
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  Object {
+                    "fontSize": 17,
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Friday
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#9B9B9B",
+                    "fontSize": 14,
+                  }
+                }
+              >
+                15th May 2020
+              </Text>
+            </View>
+          </View>
+        </View>
+      </ScrollView>
+    </View>
+  </View>
+</View>
+`;

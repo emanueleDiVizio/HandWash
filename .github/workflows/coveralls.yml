@@ -1,0 +1,44 @@
+on:
+  # Trigger the workflow on push or pull request,
+  # but only for the master branch
+  push:
+    branches:
+      - develop
+      - feature/**
+      - hotfix/**
+      - release/**
+      
+  pull_request:
+    branches:
+      - develop
+
+
+name: Tests
+
+jobs:
+
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+
+    - uses: actions/checkout@v1
+
+    - name: Use Node.js 10.x
+      uses: actions/setup-node@v1
+      with:
+        node-version: 10.x
+
+    - name: yarn, coveralls
+      run: |
+        yarn
+        yarn test
+
+    - name: Coveralls
+      uses: coverallsapp/github-action@master
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Check if android builds
+      run: |
+        cd android && ./gradlew assembleDebug

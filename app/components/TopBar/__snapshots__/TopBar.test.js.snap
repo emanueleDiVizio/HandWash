@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TopBar renders correctly when off shift 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "flex-end",
+          "backgroundColor": "#00A778",
+          "flexDirection": "row",
+          "height": 100,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "flex": 1,
+            "fontSize": 17,
+            "marginBottom": 12,
+            "textAlign": "center",
+          }
+        }
+      >
+        Wash timer
+      </Text>
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontSize": 21,
+            },
+            Object {
+              "bottom": 12,
+              "flexDirection": "row",
+              "position": "absolute",
+              "right": 12,
+            },
+            Object {
+              "fontFamily": "FontAwesome5Free-Solid",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {
+              "fontWeight": "900",
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+</View>
+`;

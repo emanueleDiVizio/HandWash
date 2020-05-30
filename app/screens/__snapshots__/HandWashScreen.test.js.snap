@@ -1,0 +1,267 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HandWashComponent renders correctly 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "flex-end",
+            "backgroundColor": "#00A778",
+            "flexDirection": "row",
+            "height": 100,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "white",
+              "flex": 1,
+              "fontSize": 17,
+              "marginBottom": 12,
+              "textAlign": "center",
+            }
+          }
+        >
+          Wash timer
+        </Text>
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "white",
+                "fontSize": 21,
+              },
+              Object {
+                "bottom": 12,
+                "flexDirection": "row",
+                "position": "absolute",
+                "right": 12,
+              },
+              Object {
+                "fontFamily": "FontAwesome5Free-Solid",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {
+                "fontWeight": "900",
+              },
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={Object {}}
+      />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "margin": 16,
+          }
+        }
+      >
+        <TouchableOpacity
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#00A1D2",
+              "borderRadius": 100,
+              "flexDirection": "column",
+              "height": 200,
+              "justifyContent": "center",
+              "shadowColor": "black",
+              "shadowOffset": Object {
+                "height": -2,
+              },
+              "shadowOpacity": 0.2,
+              "shadowRadius": 16,
+              "width": 200,
+            }
+          }
+          testID="timer-button"
+        >
+          <View
+            style={
+              Object {
+                "bottom": 0,
+                "left": -5,
+                "position": "absolute",
+                "right": 0,
+                "top": -5,
+              }
+            }
+          >
+            <RNSVGSvgView
+              bbHeight={210}
+              bbWidth={210}
+              focusable={false}
+              height={210}
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderWidth": 0,
+                  },
+                  Object {
+                    "flex": 0,
+                    "height": 210,
+                    "width": 210,
+                  },
+                ]
+              }
+              width={210}
+            >
+              <RNSVGGroup>
+                <RNSVGGroup
+                  matrix={
+                    Array [
+                      6.123233995736766e-17,
+                      1,
+                      -1,
+                      6.123233995736766e-17,
+                      210,
+                      0,
+                    ]
+                  }
+                />
+              </RNSVGGroup>
+            </RNSVGSvgView>
+          </View>
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": "white",
+                  "fontSize": 60,
+                },
+                Object {
+                  "marginBottom": 24,
+                },
+                Object {
+                  "fontFamily": "FontAwesome5Free-Solid",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {
+                  "fontWeight": "900",
+                },
+              ]
+            }
+          >
+            
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "white",
+                "fontSize": 21,
+              }
+            }
+          >
+            Wash
+          </Text>
+        </TouchableOpacity>
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <View>
+          <Text
+            style={
+              Object {
+                "color": "#4A4A4A",
+                "marginBottom": 8,
+                "marginLeft": 16,
+              }
+            }
+          >
+            HISTORY
+          </Text>
+          <ScrollView
+            data={Array []}
+            disableVirtualization={false}
+            horizontal={false}
+            initialNumToRender={10}
+            maxToRenderPerBatch={10}
+            onEndReachedThreshold={2}
+            removeClippedSubviews={false}
+            scrollEventThrottle={50}
+            stickyHeaderIndices={Array []}
+            updateCellsBatchingPeriod={50}
+            viewabilityConfigCallbackPairs={Array []}
+            windowSize={21}
+          />
+        </View>
+      </View>
+      <TouchableOpacity
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#00A778",
+            },
+            Object {
+              "bottom": 0,
+              "height": 100,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "shadowColor": "black",
+              "shadowOffset": Object {
+                "height": -4,
+              },
+              "shadowOpacity": 0.4,
+              "shadowRadius": 16,
+            },
+          ]
+        }
+        testID="shift-button"
+      >
+        <Text
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "white",
+              "fontSize": 17,
+              "marginTop": 8,
+            }
+          }
+        >
+          Start shift
+        </Text>
+      </TouchableOpacity>
+    </View>
+  </View>
+</View>
+`;
